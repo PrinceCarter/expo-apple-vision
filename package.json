@@ -1,0 +1,44 @@
+{
+  "name": "expo-apple-vision",
+  "version": "0.1.1",
+  "description": "A cross-platform Expo module for face detection and image analysis using Apple’s Vision framework on iOS.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-apple-vision",
+    "ExpoAppleVision"
+  ],
+  "repository": "https://github.com/PrinceCarter/expo-apple-vision",
+  "bugs": {
+    "url": "https://github.com/PrinceCarter/expo-apple-vision/issues"
+  },
+  "author": "PrinceCarter <princethepharaoh@gmail.com> (https://github.com/PrinceCarter)",
+  "license": "MIT",
+  "homepage": "https://github.com/PrinceCarter/expo-apple-vision#readme",
+  "devDependencies": {
+    "@types/react": "^19.1.6",
+    "@types/react-native": "^0.73.0",
+    "expo": "^53.0.9",
+    "expo-module-scripts": "^4.1.7",
+    "react-native": "^0.79.2"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
+}

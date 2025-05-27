@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-apple-vision": ["../src/index"],
+      "expo-apple-vision/*": ["../src/*"]
+    }
+  }
+}
