@@ -1,6 +1,6 @@
 {
   "name": "expo-apple-vision",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "A cross-platform Expo module for face detection and image analysis using Apple’s Vision framework on iOS.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
